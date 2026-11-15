@@ -1,0 +1,13 @@
+{
+  "_comment": "SYNTHETIC EXAMPLE ONLY. Do not use these values for the supplied BMPs; replace every calibration, nominal, and tolerance with validated engineering data.",
+  "calibration": {
+    "mm_per_pixel": 0.1,
+    "reference_description": "SYNTHETIC test fixture only"
+  },
+  "diameters": [
+    {"name": "D1", "nominal_mm": 38.0, "tolerance_mm": 0.5},
+    {"name": "D2", "nominal_mm": 30.0, "tolerance_mm": 0.5},
+    {"name": "D3", "nominal_mm": 27.0, "tolerance_mm": 0.5},
+    {"name": "D4", "nominal_mm": 22.5, "tolerance_mm": 0.5}
+  ]
+}

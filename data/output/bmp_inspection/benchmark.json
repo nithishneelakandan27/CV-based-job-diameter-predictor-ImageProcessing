@@ -1,0 +1,86 @@
+{
+  "benchmark": "automatic localization + ROI extraction + horizontal normalization + D1-D4 measurement",
+  "results": [
+    {
+      "image": "Image_20260826172434771.bmp",
+      "jobs": 9,
+      "runs": 10,
+      "median_full_image_pipeline_ms": 86.88460400026088,
+      "max_full_image_pipeline_ms": 99.58983399883437,
+      "min_full_image_pipeline_ms": 84.39995799926692,
+      "runs_ms": [
+        84.39995799926692,
+        85.57187500082364,
+        85.60595800008741,
+        86.0597080009029,
+        86.34462500049267,
+        87.42458300002909,
+        87.98012499937613,
+        89.09595799923409,
+        90.9088749995135,
+        99.58983399883437
+      ]
+    },
+    {
+      "image": "Image_20260826172506544.bmp",
+      "jobs": 9,
+      "runs": 10,
+      "median_full_image_pipeline_ms": 88.72302099916851,
+      "max_full_image_pipeline_ms": 99.32066699911957,
+      "min_full_image_pipeline_ms": 88.22799999870767,
+      "runs_ms": [
+        88.22799999870767,
+        88.23608300008345,
+        88.32308300043223,
+        88.35858299971733,
+        88.65037499890605,
+        88.79566699943098,
+        88.8089170002786,
+        88.80979199966532,
+        89.18020899909607,
+        99.32066699911957
+      ]
+    },
+    {
+      "image": "Image_20260826172520410.bmp",
+      "jobs": 9,
+      "runs": 10,
+      "median_full_image_pipeline_ms": 78.93893699929322,
+      "max_full_image_pipeline_ms": 81.27449999847158,
+      "min_full_image_pipeline_ms": 78.09274999999616,
+      "runs_ms": [
+        78.09274999999616,
+        78.0931250010326,
+        78.37408300110837,
+        78.80516600016563,
+        78.81179099967994,
+        79.0660829989065,
+        79.91099999890139,
+        80.81645899983414,
+        81.13858300021093,
+        81.27449999847158
+      ]
+    },
+    {
+      "image": "Image_20260826172941994.bmp",
+      "jobs": 9,
+      "runs": 10,
+      "median_full_image_pipeline_ms": 95.16004200031603,
+      "max_full_image_pipeline_ms": 95.86674999991374,
+      "min_full_image_pipeline_ms": 94.61812500012456,
+      "runs_ms": [
+        94.61812500012456,
+        94.67199999926379,
+        94.80383299887762,
+        94.89679100079229,
+        95.04266700059816,
+        95.27741700003389,
+        95.53125000093132,
+        95.69275000103517,
+        95.86058400054753,
+        95.86674999991374
+      ]
+    }
+  ],
+  "note": "These BMPs contain nine jobs each; this benchmark does not establish the approximately 50-job/one-second production target."
+}

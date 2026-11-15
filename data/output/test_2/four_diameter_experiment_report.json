@@ -1,0 +1,81 @@
+{
+  "image": "WhatsApp Image 2026-09-07 at 1.48.55 PM.jpeg",
+  "timings_ms": {
+    "image_loading": 11.16412500050501,
+    "job_localization": 0.003749999450519681,
+    "roi_extraction": 0.05370899998524692,
+    "normalization": 0.0024170003598555923,
+    "D1_measurement": 20.12079199994332,
+    "D2_measurement": 0.5242919996817363,
+    "D3_measurement": 0.47045800056366716,
+    "D4_measurement": 0.4540409991022898,
+    "complete_image_inspection": 32.83008300059009
+  },
+  "jobs": [
+    {
+      "job_id": "job-01",
+      "diameters": [
+        {
+          "name": "D1",
+          "left_edge_x": 33.538834664758,
+          "right_edge_x": 145.3845506347216,
+          "diameter_pixels": 111.84571596996359,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "left_edge_x": 43.92505117108323,
+          "right_edge_x": 112.00305306046516,
+          "diameter_pixels": 68.07800188938194,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "left_edge_x": 44.60810935350304,
+          "right_edge_x": 108.826379426075,
+          "diameter_pixels": 64.21827007257195,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "left_edge_x": 26.815716120672445,
+          "right_edge_x": 110.87436306393866,
+          "diameter_pixels": 84.05864694326621,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This is a configuration-driven pixel experiment, not validated industrial inspection.",
+    "Millimetres and PASS/FAIL remain NOT_CONFIGURED without an explicit calibration and drawing tolerance."
+  ]
+}

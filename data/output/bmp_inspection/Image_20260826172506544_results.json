@@ -1,0 +1,930 @@
+{
+  "image": "Image_20260826172506544.bmp",
+  "orientation": "source horizontal, flange-left; normalized 90 degrees counter-clockwise",
+  "measurement_units": "pixels",
+  "calibration": null,
+  "timings_ms": {
+    "image_loading": 30.436167000516434,
+    "job_localization": 47.33066700100608,
+    "roi_extraction": 0.9097110014408827,
+    "normalization": 1.7550430002302164,
+    "D1_measurement": 7.851706997826113,
+    "D2_measurement": 8.074415000010049,
+    "D3_measurement": 11.597085001994856,
+    "D4_measurement": 7.814625998435076,
+    "complete_image_inspection": 115.87787499956903
+  },
+  "job_count": 9,
+  "status_counts": {
+    "PASS": 0,
+    "FAIL": 0,
+    "NOT_CONFIGURED": 9,
+    "MEASUREMENT_FAILED": 0
+  },
+  "jobs": [
+    {
+      "job_id": "job_r01_c01",
+      "roi": {
+        "x": 255,
+        "y": 135,
+        "width": 613,
+        "height": 406
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 9.72256997041102,
+          "right_edge_x": 395.0296321916174,
+          "diameter_pixels": 385.30706222120637,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 53.91380422812044,
+          "right_edge_x": 352.36118891376344,
+          "diameter_pixels": 298.447384685643,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 67.3860343189331,
+          "right_edge_x": 338.0386145276459,
+          "diameter_pixels": 270.65258020871283,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 90.12370010745921,
+          "right_edge_x": 315.308746672785,
+          "diameter_pixels": 225.18504656532576,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r01_c02",
+      "roi": {
+        "x": 955,
+        "y": 134,
+        "width": 594,
+        "height": 411
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 11.900994698389544,
+          "right_edge_x": 399.1103127070403,
+          "diameter_pixels": 387.20931800865077,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 54.631682668619455,
+          "right_edge_x": 352.9023937379358,
+          "diameter_pixels": 298.27071106931635,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 68.35819285280598,
+          "right_edge_x": 340.89834809409047,
+          "diameter_pixels": 272.5401552412845,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 93.37039185863972,
+          "right_edge_x": 317.82915153139146,
+          "diameter_pixels": 224.45875967275174,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r01_c03",
+      "roi": {
+        "x": 1656,
+        "y": 143,
+        "width": 595,
+        "height": 412
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 11.616441571509394,
+          "right_edge_x": 399.4540871306074,
+          "diameter_pixels": 387.837645559098,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 56.19168074778348,
+          "right_edge_x": 353.725805939375,
+          "diameter_pixels": 297.5341251915915,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 71.58781983576208,
+          "right_edge_x": 343.33256432599126,
+          "diameter_pixels": 271.7447444902292,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 97.59965256013723,
+          "right_edge_x": 323.08159059987634,
+          "diameter_pixels": 225.4819380397391,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r02_c01",
+      "roi": {
+        "x": 260,
+        "y": 824,
+        "width": 606,
+        "height": 407
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 10.08149572678768,
+          "right_edge_x": 396.55389912585474,
+          "diameter_pixels": 386.47240339906705,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 55.41785389208111,
+          "right_edge_x": 354.49900837069373,
+          "diameter_pixels": 299.08115447861263,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 70.54617314410707,
+          "right_edge_x": 342.50850801139217,
+          "diameter_pixels": 271.9623348672851,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 94.98353555609772,
+          "right_edge_x": 320.48879542875113,
+          "diameter_pixels": 225.50525987265343,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r02_c02",
+      "roi": {
+        "x": 958,
+        "y": 830,
+        "width": 589,
+        "height": 411
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 10.149815862750382,
+          "right_edge_x": 399.2494131119791,
+          "diameter_pixels": 389.09959724922874,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 53.83902453617603,
+          "right_edge_x": 355.691799271903,
+          "diameter_pixels": 301.85277473572694,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 67.13225589177337,
+          "right_edge_x": 342.9146185727171,
+          "diameter_pixels": 275.7823626809437,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 89.0433814946004,
+          "right_edge_x": 321.46798152462003,
+          "diameter_pixels": 232.42460003001963,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r02_c03",
+      "roi": {
+        "x": 1630,
+        "y": 832,
+        "width": 597,
+        "height": 410
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 9.7736068559704,
+          "right_edge_x": 398.4198940511464,
+          "diameter_pixels": 388.646287195176,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 53.89030399728902,
+          "right_edge_x": 355.6938308716937,
+          "diameter_pixels": 301.80352687440467,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 68.54896816902374,
+          "right_edge_x": 342.96692857426626,
+          "diameter_pixels": 274.4179604052425,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 92.81155869369427,
+          "right_edge_x": 321.21236547746884,
+          "diameter_pixels": 228.40080678377456,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r03_c01",
+      "roi": {
+        "x": 260,
+        "y": 1510,
+        "width": 605,
+        "height": 401
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 8.42286934673855,
+          "right_edge_x": 393.50808077204374,
+          "diameter_pixels": 385.0852114253052,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 50.75651960946079,
+          "right_edge_x": 350.3137942078189,
+          "diameter_pixels": 299.5572745983581,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 64.96165112782707,
+          "right_edge_x": 336.28540139984966,
+          "diameter_pixels": 271.3237502720226,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 87.52472222962746,
+          "right_edge_x": 312.4800023752397,
+          "diameter_pixels": 224.95528014561222,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r03_c02",
+      "roi": {
+        "x": 966,
+        "y": 1526,
+        "width": 583,
+        "height": 409
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 10.926084267376401,
+          "right_edge_x": 397.77946503724513,
+          "diameter_pixels": 386.85338076986875,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 55.59900664265806,
+          "right_edge_x": 354.5363541485971,
+          "diameter_pixels": 298.93734750593904,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 69.85191294391748,
+          "right_edge_x": 342.31090917064535,
+          "diameter_pixels": 272.4589962267279,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 93.41581451545242,
+          "right_edge_x": 320.6536988742609,
+          "diameter_pixels": 227.23788435880846,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    },
+    {
+      "job_id": "job_r03_c03",
+      "roi": {
+        "x": 1658,
+        "y": 1525,
+        "width": 585,
+        "height": 410
+      },
+      "status": "NOT_CONFIGURED",
+      "diameters": [
+        {
+          "name": "D1",
+          "region": {
+            "top_fraction": 0.84,
+            "bottom_fraction": 0.92
+          },
+          "left_edge_x": 10.54445684132551,
+          "right_edge_x": 397.7581286974195,
+          "diameter_pixels": 387.21367185609404,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D2",
+          "region": {
+            "top_fraction": 0.67,
+            "bottom_fraction": 0.76
+          },
+          "left_edge_x": 55.552370178178876,
+          "right_edge_x": 355.4966605717756,
+          "diameter_pixels": 299.9442903935967,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D3",
+          "region": {
+            "top_fraction": 0.35,
+            "bottom_fraction": 0.58
+          },
+          "left_edge_x": 69.90537455764002,
+          "right_edge_x": 341.1937331482421,
+          "diameter_pixels": 271.28835859060206,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        },
+        {
+          "name": "D4",
+          "region": {
+            "top_fraction": 0.2,
+            "bottom_fraction": 0.27
+          },
+          "left_edge_x": 93.64216582957997,
+          "right_edge_x": 317.5638993826753,
+          "diameter_pixels": 223.92173355309532,
+          "diameter_mm": null,
+          "nominal_mm": null,
+          "tolerance_mm": null,
+          "lower_limit_mm": null,
+          "upper_limit_mm": null,
+          "status": "NOT_CONFIGURED",
+          "edge_strategy": "sobel_x",
+          "edge_confidence": {
+            "left": 1.0,
+            "right": 1.0
+          },
+          "message": "Pixel measurement only; no calibration is configured."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "D1-D4 are independent outer-silhouette pixel measurements.",
+    "Absent calibration or drawing tolerances leave the corresponding status NOT_CONFIGURED."
+  ]
+}

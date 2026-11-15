@@ -1,0 +1,51 @@
+{
+  "job_type": "stepped_cylindrical_component",
+  "source_image": "WhatsApp Image 2026-09-07 at 11.30.01 AM.jpeg",
+  "image_resolution": {
+    "width": 960,
+    "height": 1280
+  },
+  "job_rois": [
+    {
+      "job_id": "job-01",
+      "x": 320,
+      "y": 220,
+      "width": 160,
+      "height": 480
+    }
+  ],
+  "diameters": [
+    {
+      "name": "D4",
+      "region": {
+        "top_fraction": 0.0,
+        "bottom_fraction": 0.25
+      }
+    },
+    {
+      "name": "D3",
+      "region": {
+        "top_fraction": 0.25,
+        "bottom_fraction": 0.45
+      }
+    },
+    {
+      "name": "D2",
+      "region": {
+        "top_fraction": 0.45,
+        "bottom_fraction": 0.52
+      }
+    },
+    {
+      "name": "D1",
+      "region": {
+        "top_fraction": 0.70,
+        "bottom_fraction": 1.0
+      }
+    }
+  ],
+  "notes": [
+    "Manual ROI and measurement band calibration for real phone image.",
+    "No nominal dimensions, tolerances, calibration scale, or PASS/FAIL are defined."
+  ]
+}

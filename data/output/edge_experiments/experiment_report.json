@@ -1,0 +1,110 @@
+[
+  {
+    "image": "WhatsApp Image 2026-09-07 at 10.40.46 AM.jpeg",
+    "state": "EXPERIMENT",
+    "visualization": "WhatsApp Image 2026-09-07 at 10.40.46 AM_edge_experiment.png",
+    "edge_metrics": {
+      "grayscale_gaussian_canny": {
+        "edge_pixel_count": 13066,
+        "edge_coverage_percent": 1.0633138020833333,
+        "contour_count": 151
+      },
+      "grayscale_median_canny": {
+        "edge_pixel_count": 13739,
+        "edge_coverage_percent": 1.1180826822916667,
+        "contour_count": 158
+      },
+      "red_gaussian_canny": {
+        "edge_pixel_count": 13104,
+        "edge_coverage_percent": 1.06640625,
+        "contour_count": 152
+      },
+      "blue_gaussian_canny": {
+        "edge_pixel_count": 13253,
+        "edge_coverage_percent": 1.0785319010416667,
+        "contour_count": 152
+      },
+      "hsv_value_gaussian_canny": {
+        "edge_pixel_count": 13315,
+        "edge_coverage_percent": 1.0835774739583333,
+        "contour_count": 155
+      },
+      "grayscale_sobel": {
+        "edge_pixel_count": 59989,
+        "edge_coverage_percent": 4.881917317708333,
+        "contour_count": 983
+      },
+      "grayscale_otsu": {
+        "edge_pixel_count": 867684,
+        "edge_coverage_percent": 70.6123046875,
+        "contour_count": 1
+      }
+    },
+    "timings_ms": {
+      "image_loading": 5.812499999592546,
+      "preprocessing": 1.155791000201134,
+      "edge_detection": 20.651667000493035,
+      "measurement": 0.0,
+      "complete_pipeline": 27.619958000286715
+    },
+    "notes": [
+      "Exploratory pixel/edge experiment only; no diameter region was specified.",
+      "No camera calibration, physical reference, nominal dimension, or tolerance was supplied.",
+      "Therefore no millimetre measurement or PASS/FAIL result has been generated."
+    ]
+  },
+  {
+    "image": "WhatsApp Image 2026-09-07 at 10.40.47 AM.jpeg",
+    "state": "EXPERIMENT",
+    "visualization": "WhatsApp Image 2026-09-07 at 10.40.47 AM_edge_experiment.png",
+    "edge_metrics": {
+      "grayscale_gaussian_canny": {
+        "edge_pixel_count": 20312,
+        "edge_coverage_percent": 1.6529947916666665,
+        "contour_count": 8
+      },
+      "grayscale_median_canny": {
+        "edge_pixel_count": 20166,
+        "edge_coverage_percent": 1.64111328125,
+        "contour_count": 5
+      },
+      "red_gaussian_canny": {
+        "edge_pixel_count": 20432,
+        "edge_coverage_percent": 1.6627604166666667,
+        "contour_count": 8
+      },
+      "blue_gaussian_canny": {
+        "edge_pixel_count": 20199,
+        "edge_coverage_percent": 1.643798828125,
+        "contour_count": 8
+      },
+      "hsv_value_gaussian_canny": {
+        "edge_pixel_count": 20165,
+        "edge_coverage_percent": 1.6410319010416667,
+        "contour_count": 8
+      },
+      "grayscale_sobel": {
+        "edge_pixel_count": 64996,
+        "edge_coverage_percent": 5.289388020833333,
+        "contour_count": 1605
+      },
+      "grayscale_otsu": {
+        "edge_pixel_count": 857403,
+        "edge_coverage_percent": 69.775634765625,
+        "contour_count": 1
+      }
+    },
+    "timings_ms": {
+      "image_loading": 6.586458000128914,
+      "preprocessing": 0.5456250000861473,
+      "edge_detection": 16.565666999667883,
+      "measurement": 0.0,
+      "complete_pipeline": 23.697749999882944
+    },
+    "notes": [
+      "Exploratory pixel/edge experiment only; no diameter region was specified.",
+      "No camera calibration, physical reference, nominal dimension, or tolerance was supplied.",
+      "Therefore no millimetre measurement or PASS/FAIL result has been generated."
+    ]
+  }
+]
